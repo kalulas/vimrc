@@ -10,8 +10,8 @@ My Vim configuration file
 
 ## Usage
 
-1. clone this repository
-2. make a copy of your own `.vimrc` file(consider `.vimrc.save`)
-3. copy `.vimrc` file to your vimrc directory
-4. copy files under `colors` to your `$VIM/colors` directory
-5. you are now good to go
+1. Clone this repository
+2. Make a copy of your own `.vimrc` file(consider `.vimrc.save`)
+3. Copy `.vimrc` file to your vimrc directory
+4. Copy files under `colors` to your `$VIM/colors` directory
+5. You are now good to go
