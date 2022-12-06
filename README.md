@@ -8,7 +8,7 @@ My Vim configuration file
 
 
 
-## Usage
+## Instructions
 
 1. Clone this repository
 2. Make a copy of your own `.vimrc` file(consider `.vimrc.save`)
