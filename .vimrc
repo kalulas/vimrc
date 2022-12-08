@@ -64,18 +64,17 @@ filetype plugin indent on
 " Vundle end
 
 " NERDTree 插件配置
-nnoremap <F5> :NERDTree<CR>
-nnoremap <F6> :NERDTreeToggle<CR>
+" 使用 Ctrl + W + H / L 切换即可
+nnoremap <F5> :NERDTreeToggle<CR>
+" nnoremap <F6> :NERDTreeToggle<CR>
 let NERDTreeWinSize=40
 
 " tagbar 插件配置
 " 弹出时选中
-nnoremap <F7> :TagbarToggle fj<CR>
+nnoremap <F6> :TagbarToggle fj<CR>
 " 弹出时不选中
 " nnoremap <F7> :TagbarOpen<CR>
 " nnoremap <F8> :TagbarClose<CR>
-" tag窗口打开时自动选中
-" let g:tagbar_autofocus=1
 
 " 配色方案
 colorscheme gruvbox
