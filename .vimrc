@@ -1,4 +1,4 @@
-" ~/.vimrc
+" ~/.vim/vimrc
 
 " 显示行号
 set number
@@ -41,9 +41,13 @@ set updatetime=500
 set nocompatible
 filetype off
 
+" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
+" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
 " https://github.com/preservim/nerdtree
@@ -56,11 +60,22 @@ Plugin 'majutsushi/tagbar'
 Plugin 'Valloric/YouCompleteMe'
 
 " 配色方案插件
-Plugin 'morhetz/gruvbox'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
 filetype plugin indent on
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
 " Vundle end
 
 " NERDTree 插件配置
@@ -77,5 +92,4 @@ nnoremap <F6> :TagbarToggle fj<CR>
 " nnoremap <F8> :TagbarClose<CR>
 
 " 配色方案
-colorscheme gruvbox
-" colorscheme dracula
+colorscheme dracula
